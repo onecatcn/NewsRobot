@@ -63,11 +63,11 @@ def remove_txt(keyword_list,fpath,date):
     print ("deleted files on disk")
 
 def auto_email(emaillist,keyword_list,fpath,date):
-    SMTPserver = 'hqsmtp.chinamobile.com'  
-    sender = 'wangkaiwx@chinamobile.com'  
+    SMTPserver = 'xxx.com'  
+    sender = 'xxx.com'  
     password = "beijing201807"
-##    destination = "kaiwang85@foxmail.com,onecat@163.com,wangkaiwx@chinamobile.com"
-##    destination = "kaiwang85@foxmail.com,onecat@163.com,fanxiaohui@chinamobile.com,sunlin@@chinamobile.com"
+##    destination = "kaiwang85@foxmail.com,onecat@163.com,"
+##    destination = "kaiwang85@foxmail.com,onecat@163.com"
     destination = str.split(emaillist, ",")
 
     mailserver = smtplib.SMTP(SMTPserver, 25)  
