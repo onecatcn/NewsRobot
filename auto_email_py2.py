@@ -6,7 +6,7 @@
   
 ''''' 
 使用python写邮件 simple 
-使用chinamobile 的邮箱服务 
+to use ccc 的邮箱服务 
 '''  
   
 import smtplib  
